@@ -65,7 +65,7 @@ def stop_and_restart():
 
 bot.run(main())
 bot.start()
-print("\n\nRadio Player Bot Started, Join @AsmSafone!")
+print("\n\nRadio Player Bot Started, Join @xovo_efx!")
 bot.send(
     SetBotCommands(
         scope=BotCommandScopeDefault(),
@@ -182,7 +182,7 @@ async def restart(_, message: Message):
             target=stop_and_restart()
             ).start()
     try:
-        await k.edit("✅ **Restarted Successfully! \nJoin @AsmSafone For Update!**")
+        await k.edit("✅ **Restarted Successfully! \nJoin @xovo_efx For Update!**")
         await k.reply_to_message.delete()
     except:
         pass
